@@ -5,37 +5,37 @@ This project demonstrates an AI-driven traffic simulation system that leverages 
 
 # **Features**
 
-Map Integration: Utilizes OSMnx to fetch the map of Panaji, Goa, and converts it for use in SUMO.
+1.Map Integration: Utilizes OSMnx to fetch the map of Panaji, Goa, and converts it for use in SUMO.
 
-Dynamic Traffic Signal Control: Employs custom logic to manage traffic lights based on real-time traffic conditions.
+2.Dynamic Traffic Signal Control: Employs custom logic to manage traffic lights based on real-time traffic conditions.
 
-Specialized Green Passage Logic: Activates green passage dynamically to alleviate congestion at a specific junction.
+3.Specialized Green Passage Logic: Activates green passage dynamically to alleviate congestion at a specific junction.
 
-TraCI and SUMOLib Integration: Uses TraCI and SUMOLib to control and monitor traffic simulation in real-time.
+4.TraCI and SUMOLib Integration: Uses TraCI and SUMOLib to control and monitor traffic simulation in real-time.
 
-Realistic Traffic Flow Simulation: Mimics real-world traffic patterns, including main and side road prioritization.
+5.Realistic Traffic Flow Simulation: Mimics real-world traffic patterns, including main and side road prioritization.
 
 # **Work Done**
 
 **Data Mining:**
 
-Map Extraction: Utilized OSMnx to extract the road network map for Panaji, Goa.
+1.Map Extraction: Utilized OSMnx to extract the road network map for Panaji, Goa.
 
-Preprocessing: Converted OSMnx output to SUMO-compatible network files.
+2.Preprocessing: Converted OSMnx output to SUMO-compatible network files.
 
-Traffic Logic Implementation:
+3.Traffic Logic Implementation:
 
-Developed Python scripts for traffic signal management using TraCI and SUMOLib.
+4.Developed Python scripts for traffic signal management using TraCI and SUMOLib.
 
-Configured dynamic thresholds for vehicle counts to manage traffic flows efficiently.
+5.Configured dynamic thresholds for vehicle counts to manage traffic flows efficiently.
 
 Added functionality to prioritize traffic at special junctions experiencing congestion.
 
-Real-Time Monitoring:
+6.Real-Time Monitoring:
 
-Integrated real-time simulation capabilities using SUMO GUI.
+7.Integrated real-time simulation capabilities using SUMO GUI.
 
-Applied downstream lane control for propagating green signals to manage traffic holistically.
+8.Applied downstream lane control for propagating green signals to manage traffic holistically.
 
 # **Prerequisites**
 
@@ -43,13 +43,7 @@ SUMO: Install SUMO traffic simulator. Ensure sumo-gui is available.
 
 Python Libraries: Install the following Python libraries:
 
-osmnx
-
-sumolib
-
-traci
-
-time
+osmnx,sumolib,traci,time
 
 Map Configuration: Generate the Panaji map using OSMnx and convert it to SUMO-compatible files.
 
