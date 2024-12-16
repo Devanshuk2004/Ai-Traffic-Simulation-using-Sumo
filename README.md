@@ -3,7 +3,7 @@
 
 This project demonstrates an AI-driven traffic simulation system that leverages SUMO, OSMnx, TraCI, and SUMOLib to dynamically manage traffic signals. The simulation uses a real-world map of Panaji, Goa, extracted using OSMnx, and applies traffic logic to optimize traffic flow at intersections.
 
-**Features**
+# **Features**
 
 Map Integration: Utilizes OSMnx to fetch the map of Panaji, Goa, and converts it for use in SUMO.
 
@@ -15,7 +15,7 @@ TraCI and SUMOLib Integration: Uses TraCI and SUMOLib to control and monitor tra
 
 Realistic Traffic Flow Simulation: Mimics real-world traffic patterns, including main and side road prioritization.
 
-**Work Done**
+# **Work Done**
 
 **Data Mining:**
 
@@ -37,7 +37,7 @@ Integrated real-time simulation capabilities using SUMO GUI.
 
 Applied downstream lane control for propagating green signals to manage traffic holistically.
 
-**Prerequisites**
+# **Prerequisites**
 
 SUMO: Install SUMO traffic simulator. Ensure sumo-gui is available.
 
@@ -63,8 +63,7 @@ threshold_cars: Minimum vehicles to maintain priority phase.
 
 congestion_threshold: Trigger green passage during heavy congestion.
 
-**Durations:
-**
+# **Durations:**
 green_time_main: Green signal time for the main road.
 
 green_time_side: Green signal time for the side road.
@@ -81,7 +80,7 @@ Downstream Control:
 
 lookahead_range: Number of downstream signals considered for propagation.
 
-**Key Functions**
+# **Key Functions**
 
 get_downstream_lanes(lane_ids): Retrieves downstream lane connections.
 
